@@ -1,0 +1,86 @@
+Start testing: Mar 02 09:44 MSK
+----------------------------------------------------------
+1/1 Testing: StringsTest
+1/1 Test: StringsTest
+Command: "/home/kostikan/CLionProjects/C_IZ1/build/test/StringsTest_tests"
+Directory: /home/kostikan/CLionProjects/C_IZ1/build/test
+"StringsTest" start time: Mar 02 09:44 MSK
+Output:
+----------------------------------------------------------
+[==========] Running 10 tests from 10 test cases.
+[----------] Global test environment set-up.
+[----------] 1 test from string1
+[ RUN      ] string1.str1
+[       OK ] string1.str1 (0 ms)
+[----------] 1 test from string1 (0 ms total)
+
+[----------] 1 test from string2
+[ RUN      ] string2.str2
+g 23:50:40 tkrekt
+[       OK ] string2.str2 (0 ms)
+[----------] 1 test from string2 (0 ms total)
+
+[----------] 1 test from string3
+[ RUN      ] string3.str3
+[       OK ] string3.str3 (1 ms)
+[----------] 1 test from string3 (1 ms total)
+
+[----------] 1 test from string4
+[ RUN      ] string4.str4
+00:50:40
+[       OK ] string4.str4 (0 ms)
+[----------] 1 test from string4 (0 ms total)
+
+[----------] 1 test from string5
+[ RUN      ] string5.str5
+rtr 23:20:43 t
+[       OK ] string5.str5 (0 ms)
+[----------] 1 test from string5 (0 ms total)
+
+[----------] 1 test from string6
+[ RUN      ] string6.str6
+r 01:10:20 t
+[       OK ] string6.str6 (0 ms)
+[----------] 1 test from string6 (0 ms total)
+
+[----------] 1 test from string7
+[ RUN      ] string7.str7
+[       OK ] string7.str7 (0 ms)
+[----------] 1 test from string7 (0 ms total)
+
+[----------] 1 test from string8
+[ RUN      ] string8.str8
+[       OK ] string8.str8 (0 ms)
+[----------] 1 test from string8 (0 ms total)
+
+[----------] 1 test from string9
+[ RUN      ] string9.str9
+[       OK ] string9.str9 (0 ms)
+[----------] 1 test from string9 (0 ms total)
+
+[----------] 1 test from string10
+[ RUN      ] string10.str10
+/home/kostikan/CLionProjects/C_IZ1/test/StringsTest.cpp:125: Failure
+Expected equality of these values:
+  getDateStringsReg(&str,&temp)
+    Which is: 0
+  1
+[  FAILED  ] string10.str10 (0 ms)
+[----------] 1 test from string10 (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 10 tests from 10 test cases ran. (1 ms total)
+[  PASSED  ] 9 tests.
+[  FAILED  ] 1 test, listed below:
+[  FAILED  ] string10.str10
+
+ 1 FAILED TEST
+<end of output>
+Test time =   0.00 sec
+----------------------------------------------------------
+Test Failed.
+"StringsTest" end time: Mar 02 09:44 MSK
+"StringsTest" time elapsed: 00:00:00
+----------------------------------------------------------
+
+End testing: Mar 02 09:44 MSK

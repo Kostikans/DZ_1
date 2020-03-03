@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/DateString.h
+stdio.h
+-
+stdlib.h
+-
+regex.h
+-
+
+/home/kostikan/CLionProjects/C_IZ1/src/DateString.c
+DateString.h
+/home/kostikan/CLionProjects/C_IZ1/src/DateString.h
+
+/home/kostikan/CLionProjects/C_IZ1/src/main.c
+DateString.h
+/home/kostikan/CLionProjects/C_IZ1/src/DateString.h
+

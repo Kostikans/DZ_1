@@ -1,0 +1,3 @@
+StringsTest 7 0
+---
+StringsTest
